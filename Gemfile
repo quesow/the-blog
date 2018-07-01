@@ -17,6 +17,9 @@ gem 'haml'
 gem "haml-rails", "~> 1.0"
 gem "gritter", "1.2.0"
 gem "jquery-rails"
+gem 'sprockets-rails', :require => 'sprockets/railtie'
+gem 'bootstrap', '~> 4.1.1'
+gem 'simple_form'
 
 gem 'bootsnap', '>= 1.1.0', require: false
 

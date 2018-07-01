@@ -1,5 +1,4 @@
-/*
- *= require gritter
- *= require_tree .
- *= require_self
- */
+@import "gritter";
+@import "bootstrap";
+@import "main";
+@import "footer";
