@@ -1,11 +1,15 @@
--# = js add_gritter(notice, :image => :success, :time => 4000)
-
 %p
-  %b Title:
-  = @post.title
+  %h1
+    = @post.title
 %p
-  %b Body:
-  = @post.body
+  %b
+    = @post.body
+%p
+  %h3 Comments
+- @post.comments.each do |comment|
+  %p
+    = comment.content
+  %hr
 
 = link_to 'Edit', edit_post_path(@post)
 \|
