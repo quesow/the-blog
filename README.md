@@ -6,6 +6,8 @@ Blog application to train basics of Ruby on Rails
 - [x] Add bootstrap and simple_form gem
 - [X] Add RSpec tests
 - [X] Add Comments
-- [ ] Improve appearance of blog index view (add pagination)
+- [x] Improve appearance of blog index view (add pagination)
+- [ ] Investigate 'ckeditor' gem and replace current post logic
 - [ ] Add users with devise (roles: admin, blogger and visitant)
+- [ ] Upload images
 - [ ] TBA

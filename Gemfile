@@ -20,6 +20,7 @@ gem "jquery-rails"
 gem 'sprockets-rails', :require => 'sprockets/railtie'
 gem 'bootstrap', '~> 4.1.1'
 gem 'simple_form'
+gem 'kaminari'
 
 gem 'bootsnap', '>= 1.1.0', require: false
 

@@ -1,6 +1,6 @@
 require 'faker'
 
-10.times.each do
+50.times.each do
   Post.create(title: Faker::Name.name , body: Faker::ChuckNorris.fact)
 end
 
