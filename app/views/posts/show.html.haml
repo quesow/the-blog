@@ -1,9 +1,9 @@
 %p
   %h1
-    = @post.title
+    = @post.title.html_safe
 %p
   %b
-    = @post.body
+    = @post.body.html_safe
 %p
   %h3 Comments
 - @post.comments.each do |comment|

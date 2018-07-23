@@ -7,7 +7,7 @@ Blog application to train basics of Ruby on Rails
 - [X] Add RSpec tests
 - [X] Add Comments
 - [x] Improve appearance of blog index view (add pagination)
-- [ ] Investigate 'ckeditor' gem and replace current post logic
+- [x] Investigate 'ckeditor' gem and replace current post logic
+- [ ] Upload images (carrierwave)
 - [ ] Add users with devise (roles: admin, blogger and visitant)
-- [ ] Upload images
 - [ ] TBA

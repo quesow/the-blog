@@ -6,3 +6,4 @@
 //= require activestorage
 //= require turbolinks
 //= require gritter
+//= require ckeditor/init
