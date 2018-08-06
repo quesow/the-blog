@@ -4,10 +4,14 @@
 = link_to "New post", new_post_path, :class => "btn btn-success"
 %hr/
 - @posts.each do |post|
-  %h3= post.title.html_safe
-  %p= post.body.html_safe
-  = link_to "Show comments", post_path(post), :class => "btn btn-primary"
-  = link_to "Edit Post", edit_post_path(post), :class => "btn btn-secondary"
-  = link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' }, :class => "btn btn-danger"
-  - if post != @posts.last
-    %hr/
+  .row
+    .container
+      %h3= post.title.html_safe
+      %p= post.body.html_safe
+    .container
+      .btn-group.btn-group-sm
+        = link_to "Show comments", post_path(post), :class => "btn btn-primary"
+        = link_to "Edit Post", edit_post_path(post), :class => "btn btn-secondary"
+        = link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' }, :class => "btn btn-danger"
+      - if post != @posts.last
+        %hr/

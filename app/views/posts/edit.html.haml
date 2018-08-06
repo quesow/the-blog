@@ -1,6 +1,11 @@
 %h1 Editing post
 
-= render 'form'
-
-= link_to 'Show', @post, :class => "btn btn-primary"
-= link_to 'Back', posts_path, :class => "btn btn-secondary"
+.row
+  .container
+    .btn-group
+      = link_to 'Show', @post, :class => "btn btn-primary"
+      = link_to 'Back', posts_path, :class => "btn btn-secondary"
+%hr
+.row
+  .container
+    = render 'form'

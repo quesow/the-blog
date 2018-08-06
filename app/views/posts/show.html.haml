@@ -1,15 +1,19 @@
 %p
   %h1
     = @post.title.html_safe
-%p
-  %b
+.row
+  .container
     = @post.body.html_safe
-%p
-  %h3 Comments
-- @post.comments.each do |comment|
-  %p
-    = comment.content
-  %hr
-
-= link_to 'Edit', edit_post_path(@post), :class => "btn btn-primary"
-= link_to 'Back', posts_path, :class => "btn btn-secondary"
+.row
+  .container
+    .btn-group
+      = link_to 'Edit', edit_post_path(@post), :class => "btn btn-primary"
+      = link_to 'Back', posts_path, :class => "btn btn-secondary"
+%hr
+.row
+  .container
+    %h3 Comments
+    - @post.comments.each do |comment|
+      %p
+        = comment.content
+      %hr
