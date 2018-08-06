@@ -8,6 +8,6 @@ Blog application to train basics of Ruby on Rails
 - [X] Add Comments
 - [x] Improve appearance of blog index view (add pagination)
 - [x] Investigate 'ckeditor' gem and replace current post logic
-- [ ] Upload images (carrierwave)
+- [x] Upload images (carrierwave)
 - [ ] Add users with devise (roles: admin, blogger and visitant)
 - [ ] TBA

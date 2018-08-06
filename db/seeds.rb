@@ -1,7 +1,7 @@
 require 'faker'
 
-50.times.each do
-  Post.create(title: Faker::Name.name , body: Faker::ChuckNorris.fact)
+20.times.each do
+  Post.create(title: Faker::Lorem.sentence, body: Faker::Lorem.paragraph(rand(5..10)))
 end
 
 Post.all.each do |post|

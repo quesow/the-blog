@@ -22,6 +22,8 @@ gem 'bootstrap', '~> 4.1.1'
 gem 'simple_form'
 gem 'kaminari'
 gem 'ckeditor', github: 'galetahub/ckeditor'
+gem 'carrierwave'
+gem 'mini_magick'
 
 gem 'bootsnap', '>= 1.1.0', require: false
 
